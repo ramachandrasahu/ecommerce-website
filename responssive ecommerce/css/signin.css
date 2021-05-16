@@ -1,0 +1,181 @@
+body{
+	margin: 0px;
+	padding: 0;
+	background:gray;
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+#subheader{
+	width: 100%;
+	height: 40px;
+	background: #FFD700;
+	color: green;
+	margin-top: -10px;
+}
+#subheader p{
+	float: left;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+#subheader a{
+	float: right;
+	line-height: 30px;
+	color: blue;
+	margin-left: 35px; 
+	margin-right: 15px;
+}
+#main-header{
+	width: 100%;
+	height: 100px;
+	background: #00FF00;
+	margin-left:0px;
+	float: left;
+	margin-top: -10px;
+}	
+#logo{
+	width: 250px;
+	margin-top: 10px;
+	float: left;
+}
+#ist{
+	color: black;
+	font-weight: bold;
+	font-size:45px;
+	margin-left: 15px;
+	font-family: cursive;
+}
+#iist{
+	color: black;
+	font-weight: bold;
+	font-size:30px;
+	margin-left: 15px;
+	font-family: cursive;
+}
+#user-menu{
+	width: 500px;
+	float: right;
+	margin-top: 30px;
+	background: transparent;
+	color: white;	
+}
+#user-menu li{
+	float: left;
+	width: 150px;
+	list-style: none;
+	text-align: center;
+	font-size: 25px;
+	border-left: 1px solid black;
+}
+
+#user-menu li:hover{
+	font-size:30px;
+	transition:all .5s ease; 
+}
+#user-menu li a{
+	color: white;
+	text-decoration: none;
+}
+
+.loginbox{
+	width: 320px;
+	height: 420px;
+	background: transparent;
+	color: white;
+	left:50%;
+ 	top: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px)
+}
+h1{
+	margin: 0px;
+	padding: 0 0 20px;
+	text-align: center; 
+	font-size: 22px;
+}
+.loginbox p{
+	margin: 0px;
+	padding: 0 ; 
+	color: yellow;
+	font-weight: bold;
+}
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginbox input[type="text"],input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: white;
+	font-size: 16px;
+
+}
+.loginbox input[type="submit"]{
+	border: none;
+	border-radius: 20px;
+	background: green;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 18px;
+}
+.loginbox input[type="submit"]:hover{
+	cursor: pointer;
+	background: darkgray;
+}
+.loginbox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: white;
+}
+@media screen and (max-width:768px){
+	.loginbox{
+	margin-top: 250px;	
+}
+#user-menu{
+	width: 300px;
+	float: right;
+	margin-top: 30px;
+	background: transparent;
+	color: white;	
+}
+#user-menu li{
+	float: left;
+	width: 120px;
+	list-style: none;
+	text-align: center;
+	font-size: 20px;
+	border-left: 1px solid black;
+}
+#ist{
+	color: black;
+	font-weight: bold;
+	font-size:35px;
+	margin-left: 10px;
+	font-family: cursive;
+}
+#iist{
+	color: black;
+	font-weight: bold;
+	font-size:25px;
+	margin-left: 10px;
+	font-family: cursive;
+}
+
+
+}
